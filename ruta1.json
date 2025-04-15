@@ -1,0 +1,17 @@
+{
+  "nombre": "Barranco de Guayadeque",
+  "descripcion": "Sin duda Guayadeque es el barranco más espectacular y más completo de la isla, ya que, a su impresionante paisaje, se une una rica gastronomía y una curiosidad etnográfica representada por el pueblo de casas cuevas de Guayadeque, una suerte de Hobbiton en la apartada Comarca del mismo nombre, cuya paz es sólo perturbada por las hordas de turistas que lo visitan. La ruta comienza donde la carretera Ingenio-Agüimes corta el barranco y donde hay lugar para estacionar dos o tres vehículos, siendo muy fácil, transcurriendo en todo momento por una marcada senda paralela a la carretera a la que no hay que salir nunca, remontando el barranco que, de manera imperceptible, se va estrechando y haciendo cada vez más abrupto y salvaje.",
+  "distancia": 11,
+  "dificultad": "Fácil",
+  "tiempo": "3 horas 11 minutos",
+  "desnivel_positivo": 541,
+  "desnivel_negativo": 541,
+  "altitud_maxima": 769,
+  "altitud_minima": 349,
+  "tipo": "Circular",
+  "url": "https://es.wikiloc.com/rutas-senderismo/barranco-de-guayadeque-17859051",
+  "coordenadas": {
+    "inicio": "1202"
+  },
+  "perfil": "La ruta asciende desde los 349m hasta los 769m de altitud máxima, con un desnivel total de 541m tanto en subida como en bajada."
+}

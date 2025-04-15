@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas de Senderismo - Barranco de Guayadeque</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Rutas de Senderismo</h1>
+            <h2>Barranco de Guayadeque - Gran Canaria</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="filter-section">
+            <h3>Filtrar por distancia</h3>
+            <div class="filter-controls">
+                <div class="filter-item">
+                    <label for="min-distance">Distancia mínima:</label>
+                    <input type="range" id="min-distance" min="0" max="20" value="0" step="0.5">
+                    <span id="min-distance-value">0 km</span>
+                </div>
+                <div class="filter-item">
+                    <label for="max-distance">Distancia máxima:</label>
+                    <input type="range" id="max-distance" min="0" max="20" value="20" step="0.5">
+                    <span id="max-distance-value">20 km</span>
+                </div>
+                <button id="apply-filter" class="btn">Aplicar filtro</button>
+            </div>
+        </section>
+
+        <section class="routes-section">
+            <h3>Rutas disponibles</h3>
+            <div id="routes-container" class="routes-container">
+                <!-- Las rutas se cargarán dinámicamente aquí -->
+            </div>
+        </section>
+
+        <section id="route-detail" class="route-detail hidden">
+            <button id="back-button" class="btn back-btn"><i class="fas fa-arrow-left"></i> Volver</button>
+            <div id="route-detail-content">
+                <!-- Detalles de la ruta seleccionada -->
+            </div>
+            <div id="gps-info" class="gps-info">
+                <h3>Información GPS</h3>
+                <div id="gps-status">Esperando acceso a GPS...</div>
+                <div id="time-remaining" class="hidden">
+                    <h4>Tiempo restante estimado:</h4>
+                    <div id="time-value">Calculando...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Rutas de Senderismo - Barranco de Guayadeque</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

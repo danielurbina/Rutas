@@ -1,0 +1,17 @@
+{
+  "nombre": "Barranco Guayadeque Circular",
+  "descripcion": "Ruta circular que pasa por Montaña las Tierras, dirección Dgda del Viento, dirección Dgda de Rispa y regresa a Montaña las Tierras. Incluye puntos de interés como la Ermita de San Juan Bautista, Morro Carañón, Paso Bermejo y Cuevas Aborígenes.",
+  "distancia": 7,
+  "dificultad": "Moderado",
+  "tiempo": "No especificado",
+  "desnivel_positivo": 675,
+  "desnivel_negativo": 677,
+  "altitud_maxima": 1349,
+  "altitud_minima": 931,
+  "tipo": "Circular",
+  "url": "https://es.wikiloc.com/rutas-senderismo/barranco-guayadeque-circular-17765485",
+  "coordenadas": {
+    "inicio": "894"
+  },
+  "perfil": "La ruta asciende desde los 931m hasta los 1.349m de altitud máxima, con un desnivel de 675m en subida y 677m en bajada."
+}
